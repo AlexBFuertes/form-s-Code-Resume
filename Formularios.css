@@ -1,0 +1,12 @@
+body {
+    background-image: url(itachi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+    background-position: center; 
+    color: white;
+}
+
+#imagen {
+    width: 100px ;
+    height: 100px ;url(Formularios.css)
+}

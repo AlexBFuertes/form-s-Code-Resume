@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<meta charset="UTF-8">
+	<head>
+        <title>Formularios</title>
+        <link rel="stylesheet" type="text/css" href="Formularios.css">
+	</head>
+	<body>
+        <h2>Formularios</h2>
+        <form action="data.php" method="post">
+            <label for="nombre">Nombre</label><br>
+            <input type="text" name="nombre" id="nombre"><br>
+            <label for="apellidos">Apellidos</label><br>
+            <input type="text" name="apellidos" id="apellidos"><br>
+            <label for="profesion">Profesión</label><br>
+            <input type="text" name="profesion" id="profesion"><br>
+            <label for="edad">Edad</label><br>
+            <input type="text" name="edad" id="edad" size="2"><br>
+            <label for="fecha">Fecha de nacimiento</label><br>
+            <input type="date" name="fechadenacimiento" id="fechadenacimiento">
+            <br><br>
+            <input type="submit" value="ENVIAR">
+            <p>Botón tipo <em>button</em>:
+            <input type="button" name="boton" id="boton"><br></p>
+            <p>Botón tipo <em>file</em>:
+            <input type="file" name="file" id="file" value="EXAMINAR"><br></p>
+            <p>Botón tipo <em>image</em>:</p>
+            <input type="image" name="imagen" id="imagen" src="OK.png"><br>
+            <p>Botón tipo <em>reset</em>:
+            <input type="reset" name="reset" id="reset" value="Limpiar formulario"><br></p>
+            <p>Botón tipo <em>submit</em>:
+            <input type="submit" name="submit" id="submit" value="Enviar"><br></p>
+            <br>
+            <p>MEJOR PELÍCULA</p>
+            <input type="radio" name="opcion" id="opcion">La naranja mecánica<br>
+            <input type="radio" name="opcion" id="opcion">El resplandor<br>
+            <input type="radio" name="opcion" id="opcion">Truman show<br>
+            <input type="radio" name="opcion" id="opcion">American history<br>
+            <p>SELECCIONA LAS PELÍCULAS QUE NO HAYAS VISTO</p>
+            <input type="checkbox" name="opcion1" id="opcion1">La naranja mecánica<br>
+            <input type="checkbox" name="opcion2" id="opcion2">El resplandor<br>
+            <input type="checkbox" name="opcion3" id="opcion3">Truman show<br>
+            <input type="checkbox" name="opcion4" id="opcion4">American history<br>
+            <input type="checkbox" name="opcion5" id="opcion5">Conoces a Joe Black<br>
+            <input type="checkbox" name="opcion6" id="opcion6">Inocencia interrumpida<br>
+            <input type="checkbox" name="opcion7" id="opcion7">El señor de la guerra<br>
+            <input type="checkbox" name="opcion8" id="opcion8">El club de la pelea<br><br>
+        <select name="peliculas" id="peliculas" multiple="multiple">
+            <option value="17">La naranja mecánica</option>
+            <option value="11">Toy Story</option>
+            <option value="12">Dragon ball súper: Freezer</option>
+            <option value="13">El diario de Noa</option>
+            <option value="14">Harry Potter y la piedra filosofal</option>
+            <option value="15">El señor de los anillos: las dos torres</option>
+            <option value="16">Gru 2</option>
+            <option value="18">Fast and furious</option>
+        </select>
+        <select name="peliculas" id="peliculas" multiple="multiple">
+            <optgroup label="Animadas" disabled>
+            <option value="17">Naruto Shippuden</option>
+            <option value="11">Del revés</option>
+            <option value="12">Dragon ball súper: Freezer</option>
+            <option value="13">Shin Chan</option>
+            </optgroup>
+            <optgroup label="Más películas">
+            <option value="14">Harry Potter y la piedra filosofal</option>
+            <option value="15">El señor de los anillos: las dos torres</option>
+            <option value="16">Gru 2</option>
+            <option value="18">Fast and furious</option><br>
+            </optgroup>
+        </select><br><br>
+            <label id="Ipass">Introduce contraseña</label><br>
+            <input type="password" name="Ipass" id="Ipass"><br>
+            <label id="Iemail">Introduce un correo electrónico</label><br>
+            <input type="email" name="Iemail" id="Iemail"><br>
+            <label id="Iurl">Introduce una url</label><br>
+            <input type="url" name="iurl" id="iurl"><br>
+            <label id="hora">Hora</label><br>
+            <input type="time" name="hora" id="hora"><br>
+            <label id="calendar">día/mes/año</label><br>
+            <input type="date" name="calendar" id="calendar">
+            <br><br>
+        </form>
+		<header>
+		</header>
+		<aside>
+		</aside>
+		<section>
+			<article>
+			</article>
+		</section>
+		<footer>
+		</footer>
+	</body>
+</html>
